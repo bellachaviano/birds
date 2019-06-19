@@ -1,0 +1,66 @@
+h1{
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  width: 90%
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+  color: white;
+  width: 90%
+}
+article{
+  display: flex;
+  margin: 20px;
+  background-color: #dbc3a3;
+  padding: 1% 5%;
+  flex-direction: column;
+}
+#red{
+  background-color: #ffcccc;
+}
+
+#orange{
+  background-color:  #ffd1b3;
+}
+
+#yellow{
+  background-color:  #ffffcc;
+}
+
+#green{
+  background-color:  #ccffcc;
+}
+
+#blue{
+  background-color:  #b3e6ff;
+}
+
+#purple{
+  background-color:  #d9b3ff;
+}
+
+#white{
+  background-color:  #e6e6e6;
+}
+
+.pic{
+  margin: 20px;
+  width: 30%;
+  object-fit: cover
+}
+
+div{
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+ @media screen and (max-width: 590px) {
+  div{ display: flex;
+    flex-direction: column
+  }
+  .pic{
+    margin: 20px;
+    width: 90%;
+    object-fit: cover
+  }
